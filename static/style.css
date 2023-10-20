@@ -1,0 +1,46 @@
+.fileInput{
+    font-family: "Roboto",sans-serif;
+    width: 800px;
+    height: 90vh;
+    margin: 40px auto;
+    padding: 2%;
+    background: #1f28d16f;
+    box-shadow: 0,12px,50px,-11px,rgba(0,0,0,0.2);
+    border-radius: 8px;
+    color: rgba(21, 22, 20, 0.768); 
+}
+.fileInput,
+.fileInput{
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+.top h3{
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+#custom-button{
+    padding: 10px;
+    color: white;
+    background-color: rgb(176, 65, 65);
+    border: 1px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+    justify-content: center;
+}
+#custom-button:hover{
+    background-color:white;
+    color:rgb(176, 65, 65); 
+
+}
+#custom-text{
+    margin-left: 10px;
+    font-family: sans-serif;
+    color: rgb(9, 59, 16);
+}
+.userInput{
+    margin-top: 30px;
+    justify-content: center;
+    text-align: center;
+}

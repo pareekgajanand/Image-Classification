@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Classification</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="fileInput">
+        <div class="top">
+            <h3>Image Classification From Following Classes</h3>
+            <img src="{{ url_for('static', filename='images6.jpg') }}" alt="Image" height="500px" width="100%">
+        </div>
+        <div class="userInput">
+            <form action="/upload" method="POST" enctype="multipart/form-data">
+       <input type="file" name="image" id = "real-file" hidden="hidden"/>
+       <button type="button" id = "custom-button">CHOOSE A FILE</button>
+       <span id ="custom-text">No file chosen,yet.</span>
+       <button type="submit" id="upload-button" hidden="hidden">Upload</button>
+    </form>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='main.js') }}"></script>
+</body>
+</html>
